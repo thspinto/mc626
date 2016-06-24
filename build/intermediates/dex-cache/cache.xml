@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="37ddbc42b9115fdeb353b3648cba352bf1441da2">
+        <dex dex="/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/pre-dexed/debug/instant-run_eee62356acf0f9e949f34df344976a53d8dcd20d.jar" />
+    </item>
+    <item
+        jar="/Users/thiago/Downloads/gustavowaku-chess-spl/app/libs/aspectjrt.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="30217090975652be712dcc9f0499c1cab1344927">
+        <dex dex="/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/pre-dexed/debug/aspectjrt_35a9a489f4ba0bb0c8748898ddf5878d9942a77d.jar" />
+    </item>
+    <item
+        jar="/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b9059357ed136bbeeaf008d15b603b982d27b935">
+        <dex dex="/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_b4d18e51b380a9917951c9fc086875beb9c21a52.jar" />
+    </item>
+
+</items>

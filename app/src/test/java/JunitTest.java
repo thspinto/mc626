@@ -2,7 +2,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.invocation.InvocationOnMock;
 import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
 
 import br.unicamp.ic.sed.engine.impl.ComponentFactory;
 import br.unicamp.ic.sed.engine.prov.IEngine;
@@ -25,6 +27,17 @@ public class JunitTest {
 
     @Test
     public void test() throws Exception {
+
+        Mockito.when(main.timeLimit()).thenReturn(1);
+        Mockito.when(main.randomMode()).thenReturn(false);
+        Mockito.doAnswer(new Answer() {
+            @Override
+            public Object answer(InvocationOnMock invocation) throws Throwable {
+                ((Runnable)invocation.getArguments()[0]).run();
+                return null;
+            }
+        }).when(main).runOnUIThread(Mockito.any(Runnable.class));
+
         IManager engineManager = ComponentFactory.createInstance();
         engineManager.setRequiredInterface("IGUIInterface", main);
         br.unicamp.ic.sed.historymgr.prov.IManager historyManager = br.unicamp.ic.sed.historymgr.impl.ComponentFactory.createInstance();
@@ -40,9 +53,19 @@ public class JunitTest {
         engineComponent.newGame(playerWhite, ttLogSize, false);
         engineComponent.startGame();
 
-        System.out.println(engineComponent.getFEN());
         Move m = new Move(1, 16, 0);
-        engineComponent.makeHumanHumanMove(m);
+        engineComponent.humanMove(m);
+        System.out.println(engineComponent.getFEN());
+        while (!engineComponent.humansTurn()){
+            engineComponent.startComputerMove();
+        }
+        System.out.println(engineComponent.getFEN());
+        m = new Move(9, 17, 0);
+        engineComponent.humanMove(m);
+        System.out.println(engineComponent.getFEN());
+        while (!engineComponent.humansTurn()){
+            engineComponent.startComputerMove();
+        }
         System.out.println(engineComponent.getFEN());
 
     }

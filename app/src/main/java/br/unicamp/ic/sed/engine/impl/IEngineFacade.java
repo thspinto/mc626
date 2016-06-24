@@ -636,7 +636,6 @@ public class IEngineFacade implements IEngine{
                 }
                 thinkingPV = "";
                 updateGUI();
-                computerThread.start();
             }
         }
     }
@@ -699,6 +698,7 @@ public class IEngineFacade implements IEngine{
 
 	public void startComputerMove(){
 		setHumanWhite(!humanIsWhite);
+        computerThread.run();
 	}
 
 

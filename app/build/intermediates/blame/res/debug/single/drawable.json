@@ -8,6 +8,18 @@
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/pawn_black.png"
     },
     {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/rook_black.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/rook_black.png"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cs.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cs.png"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/king_black.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/king_black.png"
+    },
+    {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bv.png",
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bv.png"
     },
@@ -24,8 +36,16 @@
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bp.png"
     },
     {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cd.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cd.png"
+    },
+    {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/queen_black.png",
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/queen_black.png"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cv.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cv.png"
     },
     {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bs.png",
@@ -36,48 +56,16 @@
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/queen_white.png"
     },
     {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/rook_white.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/rook_white.png"
+    },
+    {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bd.png",
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bd.png"
     },
     {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bj.png",
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bj.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bishop_black.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bishop_black.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/ck.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/ck.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/knight_black.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/knight_black.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/rook_black.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/rook_black.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cs.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cs.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/king_black.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/king_black.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cd.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cd.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/cv.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/cv.png"
-    },
-    {
-        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/rook_white.png",
-        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/rook_white.png"
     },
     {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/king_white.png",
@@ -92,8 +80,20 @@
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/knight_white.png"
     },
     {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bishop_black.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bishop_black.png"
+    },
+    {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/bishop_white.png",
         "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/bishop_white.png"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/ck.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/ck.png"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/knight_black.png",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/drawable/knight_black.png"
     },
     {
         "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/drawable/icon_honza.png",
