@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_honzachess_main.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_honzachess_main.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_pocket_main.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_pocket_main.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_pocket_options.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_pocket_options.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_pocket_gnu.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_pocket_gnu.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_cuckoochess_main.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_cuckoochess_main.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_honzachess_pgn_header.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_honzachess_pgn_header.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_pocket_copyright2.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_pocket_copyright2.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_pocket_instructions.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_pocket_instructions.xml"
+    },
+    {
+        "merged": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/layout/layout_honzachess_settings.xml",
+        "source": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/layout/layout_honzachess_settings.xml"
+    }
+]

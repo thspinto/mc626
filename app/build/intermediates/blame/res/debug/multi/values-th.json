@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/build/intermediates/res/merged/debug/values-th/values-th.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/values-th/rate_this_app_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 55,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 133,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/values-th/rate_this_app_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 76,
+                        "endColumn": 133,
+                        "endOffset": 205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 53,
+                    "endOffset": 294
+                },
+                "from": {
+                    "file": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/values-th/rate_this_app_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 53,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 299,
+                    "endColumn": 49,
+                    "endOffset": 344
+                },
+                "from": {
+                    "file": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/values-th/rate_this_app_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 210,
+                        "endColumn": 49,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 349,
+                    "endColumn": 58,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "/Users/thiago/Downloads/gustavowaku-chess-spl/app/src/main/res/values-th/rate_this_app_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 58,
+                        "endOffset": 71
+                    }
+                }
+            }
+        ]
+    }
+]

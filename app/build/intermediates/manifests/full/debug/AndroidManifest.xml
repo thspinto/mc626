@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chess.spl"
+    android:versionCode="24"
+    android:versionName="2.04" >
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="3"
+        android:targetSdkVersion="3" />
+    <!-- end of activities for the PocketChess Game -->
+
+
+    <!-- application honzaChess -->
+    <!-- <application android:icon="@drawable/icon_honza" -->
+    <!-- android:label="@string/honza_app_name"> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.honzachess.MyHonzaChessActivity" -->
+    <!-- android:label="@string/honza_app_name"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MAIN" /> -->
+    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+    <!-- </intent-filter> -->
+    <!-- </activity> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.honzachess.MyHonzaPreferenceActivity" -->
+    <!-- android:label="Preferences"></activity> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.honzachess.AboutActivity" /> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.honzachess.PGNSaveActivity" /> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.honzachess.TabSettingsActivity" /> -->
+    <!-- </application> -->
+    <!-- end of application HonzaChess -->
+
+
+    <!-- application cuckoochess -->
+    <!-- <application android:icon="@drawable/icon_cuckoochess" -->
+    <!-- android:label="@string/cuckoo_chess_app_name"> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.cuckoochess.MyCuckooChessActivity" -->
+    <!-- android:label="@string/cuckoo_chess_app_name"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MAIN" /> -->
+    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+    <!-- </intent-filter> -->
+    <!-- </activity> -->
+    <!-- <activity android:name="br.unicamp.ic.sed.gui.cuckoochess.MyPreferenceActivity" -->
+    <!-- android:label="Preferences"></activity> -->
+    <!-- </application> -->
+    <!-- end of application cuckoochess -->
+    <!-- activities for the PocketChess Game -->
+    <application
+        android:icon="@drawable/icon_pocket"
+        android:label="@string/pocket_chess_name_app" >
+        <activity
+            android:name="br.unicamp.ic.sed.gui.pocketchess.MyPocketChess"
+            android:label="@string/pocket_chess_name_app"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.unicamp.ic.sed.gui.pocketchess.InstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.unicamp.ic.sed.gui.pocketchess.OptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.unicamp.ic.sed.gui.pocketchess.CopyrightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.unicamp.ic.sed.gui.pocketchess.GNUActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

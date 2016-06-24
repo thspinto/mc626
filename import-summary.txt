@@ -1,0 +1,105 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* README.md
+* build.xml
+* create_app.sh
+* custom_rules.xml
+* signed_apks/
+* signed_apks/cuckoo/
+* signed_apks/cuckoo/2014-08-10 02.34.39 480x800.png
+* signed_apks/cuckoo/2014-08-10 02.34.39 copy.png
+* signed_apks/cuckoo/2014-08-10 02.34.39.png
+* signed_apks/cuckoo/2014-08-10 02.34.48 480x800.png
+* signed_apks/cuckoo/2014-08-10 02.34.48.png
+* signed_apks/cuckoo/2014-08-10 feature_graphic.png
+* signed_apks/cuckoo/2014-08-10 icon 114x114.png
+* signed_apks/cuckoo/ChessSPL_cuckoo.apk
+* signed_apks/cuckoo/ChessSPL_cuckoo21.apk
+* signed_apks/cuckoo/ChessSPL_cuckoo22.apk
+* signed_apks/cuckoo/ChessSPL_cuckoo23.apk
+* signed_apks/cuckoo/ChessSPL_cuckoo24.apk
+* signed_apks/honza/
+* signed_apks/honza/2014-08-10 02.02.39 2 480x800.png
+* signed_apks/honza/2014-08-10 02.02.39 2.png
+* signed_apks/honza/2014-08-10 02.02.39-feature graphic.png
+* signed_apks/honza/2014-08-10 02.02.39-icon 114x114.png
+* signed_apks/honza/2014-08-10 02.02.39-icon.png
+* signed_apks/honza/2014-08-10 02.12.37 480x800.png
+* signed_apks/honza/2014-08-10 02.12.37.png
+* signed_apks/honza/ChessSPL_Honza.apk
+* signed_apks/honza/ChessSPL_Honza21.apk
+* signed_apks/honza/ChessSPL_Honza24.apk
+* signed_apks/pocket/
+* signed_apks/pocket/2014-08-10 02.21.28 800x480.png
+* signed_apks/pocket/2014-08-10 02.21.28 feature_graphic.png
+* signed_apks/pocket/2014-08-10 02.21.28 icon 114x114.png
+* signed_apks/pocket/2014-08-10 02.21.28 icon.png
+* signed_apks/pocket/2014-08-10 02.21.28.png
+* signed_apks/pocket/2014-08-10 02.21.32 800x480.png
+* signed_apks/pocket/2014-08-10 02.21.32.png
+* signed_apks/pocket/ChessSPL_pocket.apk
+* signed_apks/pocket/ChessSPL_pocket21.apk
+* signed_apks/pocket/ChessSPL_pocket24.apk
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/aspectjrt.jar => app/libs/aspectjrt.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/book.bin => app/src/main/resources/book.bin
+* src/book.txt => app/src/main/resources/book.txt
+* src/br/unicamp/ic/sed/bookmgr/aspects/XPIBook.aj => app/src/main/resources/br/unicamp/ic/sed/bookmgr/aspects/XPIBook.aj
+* src/br/unicamp/ic/sed/bookmgr_persistance_vp/impl/AAPersistance.aj => app/src/main/resources/br/unicamp/ic/sed/bookmgr_persistance_vp/impl/AAPersistance.aj
+* src/br/unicamp/ic/sed/bookmgr_persistance_vp/impl/BookBinder.aj => app/src/main/resources/br/unicamp/ic/sed/bookmgr_persistance_vp/impl/BookBinder.aj
+* src/br/unicamp/ic/sed/engine/aspects/XPIEngine.aj => app/src/main/resources/br/unicamp/ic/sed/engine/aspects/XPIEngine.aj
+* src/br/unicamp/ic/sed/engine_exception_vp/impl/AAExceptionImpl.aj => app/src/main/resources/br/unicamp/ic/sed/engine_exception_vp/impl/AAExceptionImpl.aj
+* src/br/unicamp/ic/sed/engine_exception_vp/impl/EngineBinder.aj => app/src/main/resources/br/unicamp/ic/sed/engine_exception_vp/impl/EngineBinder.aj
+* src/br/unicamp/ic/sed/engine_history_vp/impl/AAHistoryImpl.aj => app/src/main/resources/br/unicamp/ic/sed/engine_history_vp/impl/AAHistoryImpl.aj
+* src/br/unicamp/ic/sed/engine_history_vp/impl/EngineBinder.aj => app/src/main/resources/br/unicamp/ic/sed/engine_history_vp/impl/EngineBinder.aj
+* src/br/unicamp/ic/sed/formatmgr/aspects/XPIFormat.aj => app/src/main/resources/br/unicamp/ic/sed/formatmgr/aspects/XPIFormat.aj
+* src/br/unicamp/ic/sed/formatmgr_persistance_connector_vp/impl/AAPersistanceImpl.aj => app/src/main/resources/br/unicamp/ic/sed/formatmgr_persistance_connector_vp/impl/AAPersistanceImpl.aj
+* src/br/unicamp/ic/sed/formatmgr_persistance_connector_vp/impl/FormatBinder.aj => app/src/main/resources/br/unicamp/ic/sed/formatmgr_persistance_connector_vp/impl/FormatBinder.aj
+* src/br/unicamp/ic/sed/localization/aspects/XPILocalization.aj => app/src/main/resources/br/unicamp/ic/sed/localization/aspects/XPILocalization.aj
+* src/br/unicamp/ic/sed/localization/impl/strings_en.txt => app/src/main/resources/br/unicamp/ic/sed/localization/impl/strings_en.txt
+* src/br/unicamp/ic/sed/localization_persistance_vp/impl/AAPersistance.aj => app/src/main/resources/br/unicamp/ic/sed/localization_persistance_vp/impl/AAPersistance.aj
+* src/br/unicamp/ic/sed/localization_persistance_vp/impl/LocalizationBinder.aj => app/src/main/resources/br/unicamp/ic/sed/localization_persistance_vp/impl/LocalizationBinder.aj
+* src/br/unicamp/ic/sed/localizationloadermgr/aspects/XPILocalizationLoader.aj => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr/aspects/XPILocalizationLoader.aj
+* src/br/unicamp/ic/sed/localizationloadermgr/impl/strings_ca.txt => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr/impl/strings_ca.txt
+* src/br/unicamp/ic/sed/localizationloadermgr/impl/strings_cs.txt => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr/impl/strings_cs.txt
+* src/br/unicamp/ic/sed/localizationloadermgr/impl/strings_es.txt => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr/impl/strings_es.txt
+* src/br/unicamp/ic/sed/localizationloadermgr_persistance_vp/impl/AAPersistance.aj => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr_persistance_vp/impl/AAPersistance.aj
+* src/br/unicamp/ic/sed/localizationloadermgr_persistance_vp/impl/LocalizationLoaderBinder.aj => app/src/main/resources/br/unicamp/ic/sed/localizationloadermgr_persistance_vp/impl/LocalizationLoaderBinder.aj
+* src/br/unicamp/ic/sed/persistancemgr/aspects/XPIPersistance.aj => app/src/main/resources/br/unicamp/ic/sed/persistancemgr/aspects/XPIPersistance.aj
+* src/br/unicamp/ic/sed/persistancemgr_exception_vp/impl/AAException.aj => app/src/main/resources/br/unicamp/ic/sed/persistancemgr_exception_vp/impl/AAException.aj
+* src/br/unicamp/ic/sed/persistancemgr_exception_vp/impl/PersistanceBinder.aj => app/src/main/resources/br/unicamp/ic/sed/persistancemgr_exception_vp/impl/PersistanceBinder.aj
+* src/kpk.bitbase => app/src/main/resources/kpk.bitbase
+* src/krkp.winmasks => app/src/main/resources/krkp.winmasks
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
