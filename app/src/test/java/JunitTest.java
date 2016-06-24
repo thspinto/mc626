@@ -1,3 +1,4 @@
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -21,52 +22,18 @@ import static org.junit.Assert.assertTrue;
 @RunWith(MockitoJUnitRunner.class)
 public class JunitTest {
 
-    @Mock
-    MyPocketChess main;
+    private ChessController chessController;
 
+    @Before
+    public void init() {
+        chessController = new ChessController();
+    }
 
     @Test
     public void test() throws Exception {
+        chessController.iniciaJogo();
+        chessController.fimDeJogo();
 
-        Mockito.when(main.timeLimit()).thenReturn(1);
-        Mockito.when(main.randomMode()).thenReturn(false);
-        Mockito.doAnswer(new Answer() {
-            @Override
-            public Object answer(InvocationOnMock invocation) throws Throwable {
-                ((Runnable)invocation.getArguments()[0]).run();
-                return null;
-            }
-        }).when(main).runOnUIThread(Mockito.any(Runnable.class));
-
-        IManager engineManager = ComponentFactory.createInstance();
-        engineManager.setRequiredInterface("IGUIInterface", main);
-        br.unicamp.ic.sed.historymgr.prov.IManager historyManager = br.unicamp.ic.sed.historymgr.impl.ComponentFactory.createInstance();
-        br.unicamp.ic.sed.engine_history_connector.impl.IManager engineHistoryConnectorManager = br.unicamp.ic.sed.engine_history_connector.impl.ComponentFactory.createInstance();
-        engineHistoryConnectorManager.setRequiredInterface("IHistory", historyManager.getProvidedInterface("IHistory"));
-        engineManager.setRequiredInterface("IHistory", engineHistoryConnectorManager.getProvidedInterface("IHistory"));
-        IEngine engineComponent = (IEngine) engineManager.getProvidedInterface("IEngine");
-        engineComponent.setThreadStackSize(32768);
-
-
-        boolean playerWhite = true;
-        int ttLogSize = 16;
-        engineComponent.newGame(playerWhite, ttLogSize, false);
-        engineComponent.startGame();
-
-        Move m = new Move(1, 16, 0);
-        engineComponent.humanMove(m);
-        System.out.println(engineComponent.getFEN());
-        while (!engineComponent.humansTurn()){
-            engineComponent.startComputerMove();
-        }
-        System.out.println(engineComponent.getFEN());
-        m = new Move(9, 17, 0);
-        engineComponent.humanMove(m);
-        System.out.println(engineComponent.getFEN());
-        while (!engineComponent.humansTurn()){
-            engineComponent.startComputerMove();
-        }
-        System.out.println(engineComponent.getFEN());
 
     }
 }
