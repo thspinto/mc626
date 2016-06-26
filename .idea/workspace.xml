@@ -7,17 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a3f39ef-4a53-4916-a114-e0675cb8a565" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/ChessController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/JunitTest$1.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/State.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ChessController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/JunitTest.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/JunitTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/ChessController.java" afterPath="$PROJECT_DIR$/app/src/test/java/ChessController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/JunitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/JunitTest.java" />
     </list>
     <ignored path="gustavowaku-chess-spl.iws" />
@@ -33,6 +38,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gustavowaku-chess-spl$JunitTest_test.coverage" NAME="JunitTest.test Coverage Results" MODIFIED="1466729754818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gustavowaku-chess-spl$ChessController_handleEvent.coverage" NAME="ChessController.handleEvent Coverage Results" MODIFIED="1466950559864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -56,8 +62,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="248" column="31" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="31" />
               <folding>
-                <element signature="e#12438#12554#0" expanded="true" />
-                <element signature="e#12553#12554#0" expanded="true" />
                 <element signature="e#12909#12910#0" expanded="true" />
                 <element signature="e#12948#12949#0" expanded="true" />
               </folding>
@@ -69,11 +73,9 @@
         <entry file="file://$PROJECT_DIR$/app/src/test/java/JunitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,18 +84,16 @@
       <file leaf-file-name="ChessController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/ChessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4988067">
-              <caret line="73" column="50" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="50" />
+            <state vertical-scroll-proportion="-2.0941703">
+              <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1070#1304#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1387#1666#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#2712#2713#0" expanded="true" />
-                <element signature="e#2755#2756#0" expanded="true" />
-                <element signature="e#3209#3210#0" expanded="true" />
-                <element signature="e#3260#3261#0" expanded="true" />
+                <element signature="e#1386#1620#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1703#1982#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#3721#3722#0" expanded="true" />
+                <element signature="e#3772#3773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,13 +102,25 @@
       <file leaf-file-name="IEngineFacade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/IEngineFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="211.11111">
+            <state vertical-scroll-proportion="0.0">
               <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
               <folding>
-                <element signature="e#21387#22278#0" expanded="true" />
-                <element signature="e#21861#22236#0" expanded="true" />
-                <element signature="e#22235#22236#0" expanded="true" />
-                <element signature="e#22277#22278#0" expanded="true" />
+                <element signature="e#0#26302#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5402#5403#0" expanded="false" />
+                <element signature="e#5436#5437#0" expanded="false" />
+                <element signature="e#7020#7021#0" expanded="false" />
+                <element signature="e#7063#7064#0" expanded="false" />
+                <element signature="e#7093#7094#0" expanded="false" />
+                <element signature="e#7138#7139#0" expanded="false" />
+                <element signature="e#14780#14781#0" expanded="false" />
+                <element signature="e#14841#14842#0" expanded="false" />
+                <element signature="e#14887#14888#0" expanded="false" />
+                <element signature="e#14932#14933#0" expanded="false" />
+                <element signature="e#25035#25036#0" expanded="false" />
+                <element signature="e#25071#25072#0" expanded="false" />
+                <element signature="e#25125#25126#0" expanded="false" />
+                <element signature="e#25160#25161#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -120,7 +132,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="561" column="25" selection-start-line="561" selection-start-column="25" selection-end-line="561" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#26104#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1689,6 +1701,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/IEngineFacade.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/ChessAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/Game.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/State.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/JunitTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/ChessController.java" />
       </list>
@@ -1733,8 +1746,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1828,7 +1841,7 @@
       <recent name="$PROJECT_DIR$/app/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest.test">
+  <component name="RunManager" selected="JUnit.ChessController.handleEvent">
     <configuration default="false" name="JunitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="app" />
@@ -1837,6 +1850,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JunitTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChessController.handleEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChessController" />
+      <option name="METHOD_NAME" value="handleEvent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2096,13 +2130,15 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.JunitTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChessController.handleEvent" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JunitTest.test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChessController.handleEvent" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JunitTest.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2119,6 +2155,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1a3f39ef-4a53-4916-a114-e0675cb8a565" name="Default" comment="" />
@@ -2129,8 +2168,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JunitTest_test - 2016.06.24 at 17h 56m 34s.xml">
-      <configuration name="JunitTest.test" configurationId="JUnit" />
+    <history-entry file="ChessController_handleEvent - 2016.06.26 at 11h 16m 03s.xml">
+      <configuration name="ChessController.handleEvent" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JunitTest_test - 2016.06.24 at 17h 57m 12s.xml">
       <configuration name="JunitTest.test" configurationId="JUnit" />
@@ -2180,8 +2219,6 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2190,8 +2227,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2224,6 +2263,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -2234,6 +2281,99 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/gui/pocketchess/MyPocketChess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="248" column="31" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="31" />
+          <folding>
+            <element signature="e#12909#12910#0" expanded="true" />
+            <element signature="e#12948#12949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/JunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/ChessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1386#1620#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1703#1982#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3772#3773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/IEngineFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5402#5403#0" expanded="false" />
+            <element signature="e#5436#5437#0" expanded="false" />
+            <element signature="e#7020#7021#0" expanded="false" />
+            <element signature="e#7063#7064#0" expanded="false" />
+            <element signature="e#7093#7094#0" expanded="false" />
+            <element signature="e#7138#7139#0" expanded="false" />
+            <element signature="e#14780#14781#0" expanded="false" />
+            <element signature="e#14841#14842#0" expanded="false" />
+            <element signature="e#14887#14888#0" expanded="false" />
+            <element signature="e#14932#14933#0" expanded="false" />
+            <element signature="e#25035#25036#0" expanded="false" />
+            <element signature="e#25071#25072#0" expanded="false" />
+            <element signature="e#25125#25126#0" expanded="false" />
+            <element signature="e#25160#25161#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="561" column="25" selection-start-line="561" selection-start-column="25" selection-end-line="561" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26104#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/gui/pocketchess/MyPocketChess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12909#12910#0" expanded="true" />
+            <element signature="e#12948#12949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/JunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2247,8 +2387,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="281" column="21" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
           <folding>
-            <element signature="e#12438#12554#0" expanded="true" />
-            <element signature="e#12553#12554#0" expanded="true" />
             <element signature="e#12909#12910#0" expanded="true" />
             <element signature="e#12948#12949#0" expanded="true" />
           </folding>
@@ -2261,8 +2399,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2271,7 +2407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2279,7 +2414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="440" column="47" selection-start-line="440" selection-start-column="47" selection-end-line="440" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2287,7 +2421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2295,7 +2428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="656" column="0" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2304,7 +2436,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#26104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2314,10 +2446,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="701" column="32" selection-start-line="701" selection-start-column="32" selection-end-line="701" selection-end-column="32" />
           <folding>
-            <element signature="e#21387#22278#0" expanded="true" />
-            <element signature="e#21861#22236#0" expanded="true" />
-            <element signature="e#22235#22236#0" expanded="true" />
-            <element signature="e#22277#22278#0" expanded="true" />
+            <element signature="e#0#26302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5402#5403#0" expanded="false" />
+            <element signature="e#5436#5437#0" expanded="false" />
+            <element signature="e#7020#7021#0" expanded="false" />
+            <element signature="e#7063#7064#0" expanded="false" />
+            <element signature="e#7093#7094#0" expanded="false" />
+            <element signature="e#7138#7139#0" expanded="false" />
+            <element signature="e#14780#14781#0" expanded="false" />
+            <element signature="e#14841#14842#0" expanded="false" />
+            <element signature="e#14887#14888#0" expanded="false" />
+            <element signature="e#14932#14933#0" expanded="false" />
+            <element signature="e#25035#25036#0" expanded="false" />
+            <element signature="e#25071#25072#0" expanded="false" />
+            <element signature="e#25125#25126#0" expanded="false" />
+            <element signature="e#25160#25161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2356,7 +2500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6761905">
           <caret line="232" column="37" selection-start-line="232" selection-start-column="37" selection-end-line="232" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2364,7 +2507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9300292">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2380,7 +2522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0058309">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2388,7 +2529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39473686">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2396,7 +2536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49234137">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2404,10 +2543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29978117">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#1464#1658#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2415,10 +2550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6873449">
           <caret line="581" column="22" selection-start-line="581" selection-start-column="22" selection-end-line="581" selection-end-column="22" />
-          <folding>
-            <element signature="e#16068#16069#0" expanded="true" />
-            <element signature="e#16119#16120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2426,7 +2557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36105034">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2434,7 +2564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="438" column="52" selection-start-line="438" selection-start-column="52" selection-end-line="438" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2442,7 +2571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.6958425">
           <caret line="398" column="0" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2450,7 +2578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5733042">
           <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2458,7 +2585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33260393">
           <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2466,7 +2592,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.190582">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/IEngineFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26302#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5402#5403#0" expanded="false" />
+            <element signature="e#5436#5437#0" expanded="false" />
+            <element signature="e#7020#7021#0" expanded="false" />
+            <element signature="e#7063#7064#0" expanded="false" />
+            <element signature="e#7093#7094#0" expanded="false" />
+            <element signature="e#7138#7139#0" expanded="false" />
+            <element signature="e#14780#14781#0" expanded="false" />
+            <element signature="e#14841#14842#0" expanded="false" />
+            <element signature="e#14887#14888#0" expanded="false" />
+            <element signature="e#14932#14933#0" expanded="false" />
+            <element signature="e#25035#25036#0" expanded="false" />
+            <element signature="e#25071#25072#0" expanded="false" />
+            <element signature="e#25125#25126#0" expanded="false" />
+            <element signature="e#25160#25161#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2475,21 +2625,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="561" column="25" selection-start-line="561" selection-start-column="25" selection-end-line="561" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#26104#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/unicamp/ic/sed/engine/impl/IEngineFacade.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="211.11111">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-          <folding>
-            <element signature="e#21387#22278#0" expanded="true" />
-            <element signature="e#21861#22236#0" expanded="true" />
-            <element signature="e#22235#22236#0" expanded="true" />
-            <element signature="e#22277#22278#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2498,8 +2643,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="248" column="31" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="31" />
           <folding>
-            <element signature="e#12438#12554#0" expanded="true" />
-            <element signature="e#12553#12554#0" expanded="true" />
             <element signature="e#12909#12910#0" expanded="true" />
             <element signature="e#12948#12949#0" expanded="true" />
           </folding>
@@ -2509,29 +2652,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/test/java/JunitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/ChessController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4988067">
-          <caret line="73" column="50" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="50" />
+        <state vertical-scroll-proportion="-2.0941703">
+          <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1070#1304#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1387#1666#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2755#2756#0" expanded="true" />
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#1386#1620#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1703#1982#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3772#3773#0" expanded="true" />
           </folding>
         </state>
       </provider>

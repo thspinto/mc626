@@ -1,9 +1,8 @@
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.mockito.internal.util.ObjectMethodsGuru;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.mockito.stubbing.Answer;
@@ -19,7 +18,7 @@ import br.unicamp.ic.sed.global.datatypes.Move;
 import br.unicamp.ic.sed.gui.pocketchess.MyPocketChess;
 
 @RunWith(MockitoJUnitRunner.class)
-public class ChessController {
+public class ChessController implements java.lang.Cloneable {
 
     @Mock
     private MyPocketChess main;
@@ -28,7 +27,17 @@ public class ChessController {
 
     private String status;
 
+    private State state;
+
+    private static List<Move> jogadasValidas = Arrays.asList(new Move(13, 29, 0), new Move(14, 30, 0),
+            new Move(8, 16, 0), new Move(16, 24, 0), new Move(9, 17, 0));
+
+    private int moveIndex;
+
     public ChessController() {
+        state = State.HumanoJoga;
+
+        /** Mocks */
         MockitoAnnotations.initMocks(this);
 
         Mockito.when(main.timeLimit()).thenReturn(100);
@@ -50,6 +59,7 @@ public class ChessController {
             }
         }).when(main).setStatusString(Mockito.anyString());
 
+        /** Inicializa componentes */
         IManager engineManager = ComponentFactory.createInstance();
         engineManager.setRequiredInterface("IGUIInterface", main);
         br.unicamp.ic.sed.historymgr.prov.IManager historyManager = br.unicamp.ic.sed.historymgr.impl.ComponentFactory.createInstance();
@@ -59,19 +69,24 @@ public class ChessController {
         engineComponent = (IEngine) engineManager.getProvidedInterface("IEngine");
         engineComponent.setThreadStackSize(32768);
 
-
         boolean playerWhite = true;
         int ttLogSize = 16;
         engineComponent.newGame(playerWhite, ttLogSize, false);
     }
 
     public  void iniciaJogo() {
+        moveIndex = 0;
         engineComponent.startGame();
     }
 
     public void humanoJoga(Move move) throws InvalidMoveException {
         engineComponent.humanMove(move);
         System.out.println(engineComponent.getFEN());
+    }
+
+    public void jogadaInvalida() throws InvalidMoveException {
+        Move m = new Move(16, 24, 0);
+        this.humanoJoga(m);
     }
 
     public void iaJoga() throws InterruptedException {
@@ -87,14 +102,65 @@ public class ChessController {
     }
 
     public void fimDeJogo() throws Exception {
-        List<Move> jogadas = Arrays.asList(new Move(13, 29, 0), new Move(14, 30, 0),
-                new Move(8, 16, 0), new Move(16, 24, 0), new Move(9, 17, 0));
-
         int i = 0;
         do{
-            humanoJoga(jogadas.get(i++));
+            humanoJoga(jogadasValidas.get(i++));
             iaJoga();
         }while (!status.contains("Game over"));
+    }
+
+    public ChessController clone() {
+        try {
+            return (ChessController) super.clone();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace(java.lang.System.err);
+        }
+        return null;
+    }
+
+    public void handleEvent(Object... inColObject) throws Exception {
+        if(inColObject.length > 0){
+            String sEventName = (String)inColObject[0];
+
+            if(sEventName.compareTo("jogadaValidaEvent") == 0) {
+                if (this.vezDoHumano()) {
+                    try {
+                        this.humanoJoga(jogadasValidas.get(moveIndex++));
+                        state = State.IAJoga;
+                    } catch (InvalidMoveException e) {
+                        state = State.JogadaInvalida;
+                    }
+                }
+                else {
+                    this.iaJoga();
+                    state = State.HumanoJoga;
+                }
+            } else if(sEventName.compareTo("jogadaInvalidaEvent") == 0) {
+                if (this.vezDoHumano()) {
+                    try {
+                        this.humanoJoga(jogadasValidas.get(moveIndex++));
+                        state = State.IAJoga;
+                    } catch (InvalidMoveException e) {
+                        state = State.JogadaInvalida;
+                    }
+                }
+            } else if(sEventName.compareTo("inicarJogoEvent") == 0) {
+                this.iniciaJogo();
+            } else if(sEventName.compareTo("retornaJogadaInvalidaEvent") == 0) {
+                if(State.JogadaInvalida.equals(state)) {
+                    state = State.HumanoJoga;
+                }
+            } else if(sEventName.compareTo("iAJogaEvent") == 0) {
+                if (!this.vezDoHumano()) {
+                    this.iaJoga();
+                    state = State.HumanoJoga;
+                }
+            }
+
+        }
+
     }
 
 
