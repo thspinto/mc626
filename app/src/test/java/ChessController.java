@@ -29,6 +29,10 @@ public class ChessController implements java.lang.Cloneable {
 
     private State state;
 
+    public Boolean brancoJoga;
+
+    private int i = 0;
+
     private static List<Move> jogadasValidas = Arrays.asList(new Move(13, 29, 0), new Move(14, 30, 0),
             new Move(8, 16, 0), new Move(16, 24, 0), new Move(9, 17, 0));
 
@@ -36,6 +40,7 @@ public class ChessController implements java.lang.Cloneable {
 
     public ChessController() {
         state = State.HumanoJoga;
+        brancoJoga = true;
 
         /** Mocks */
         MockitoAnnotations.initMocks(this);
@@ -102,7 +107,6 @@ public class ChessController implements java.lang.Cloneable {
     }
 
     public void fimDeJogo() throws Exception {
-        int i = 0;
         do{
             humanoJoga(jogadasValidas.get(i++));
             iaJoga();
@@ -120,7 +124,7 @@ public class ChessController implements java.lang.Cloneable {
         return null;
     }
 
-    public void handleEvent(Object... inColObject) throws Exception {
+    public void handleEvent(Object... inColObject) {
         if(inColObject.length > 0){
             String sEventName = (String)inColObject[0];
 
@@ -129,13 +133,19 @@ public class ChessController implements java.lang.Cloneable {
                     try {
                         this.humanoJoga(jogadasValidas.get(moveIndex++));
                         state = State.IAJoga;
+                        brancoJoga = !brancoJoga;
                     } catch (InvalidMoveException e) {
                         state = State.JogadaInvalida;
                     }
                 }
                 else {
-                    this.iaJoga();
-                    state = State.HumanoJoga;
+                    try {
+                        this.iaJoga();
+                        state = State.HumanoJoga;
+                        brancoJoga = !brancoJoga;
+                    }catch (Exception e) {
+
+                    }
                 }
             } else if(sEventName.compareTo("jogadaInvalidaEvent") == 0) {
                 if (this.vezDoHumano()) {
@@ -152,13 +162,13 @@ public class ChessController implements java.lang.Cloneable {
                 if(State.JogadaInvalida.equals(state)) {
                     state = State.HumanoJoga;
                 }
-            } else if(sEventName.compareTo("iAJogaEvent") == 0) {
-                if (!this.vezDoHumano()) {
-                    this.iaJoga();
-                    state = State.HumanoJoga;
+            } else if(sEventName.compareTo("fimDeJogoEvent") == 0){
+                try {
+                    this.fimDeJogo();
+                } catch (Exception e){
+
                 }
             }
-
         }
 
     }
